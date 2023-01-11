@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+header{
+    margin-bottom: 200px;
+    margin-right:20px ;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color: blue;
+    color:white;
+    padding: 10px;
+    font-weight:bolder ;
+}
+.quote{
+    font-family: "Cedarville Cursive", cursive;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    line-height: 16px;  
+}
+.main-text {
+    float: left;
+    width: 45%;
+    padding: 5px;
+}
+.clear{
+    clear: both;
+}
+.article{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+@media screen and(max-width:481) { 
+    .main-text { 
+        float: left; 
+        width: 45%; 
+        padding: 5px; 
+    } .clear{ 
+        clear: both; 
+    } 
+    .article{ 
+        display: flex; 
+        justify-content:space-around; 
+        padding-bottom: 100px; 
+    }
+ }
